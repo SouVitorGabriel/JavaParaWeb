@@ -6,7 +6,6 @@
 package viewer;
 
 import java.util.ArrayList;
-import javax.swing.JOptionPane;
 import model.Produto;
 /**
  *
@@ -133,9 +132,9 @@ public class FrmProduto extends javax.swing.JInternalFrame {
         p.setDescri(txtDescr.getText());
         p.setValor(Double.parseDouble(txtValor.getText()));
         p.setEstoque(Integer.parseInt(txtEstoque.getText()));
-        p.setEstMin(Integer.parseInt(txtEstMin.getText())); 
-        
+        p.setEstMin(Integer.parseInt(txtEstMin.getText()));
         this.produtos.add(p);
+        
         limpadinha();
     }//GEN-LAST:event_btnCadActionPerformed
 
